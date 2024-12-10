@@ -1,0 +1,7 @@
+{
+    "name":"TYPESCRIPT&CSS&HTML",
+    "version":"1.0",
+    "scripts": {
+        "start":"live-server"
+    }
+}

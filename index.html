@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/calculatrice.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="groupe1-container">
+            <p id="resultat"></p>
+            <textarea name="" id="result"></textarea>
+
+        </div>
+        <div class="groupe2-container">
+            <div class="norme">
+                <div class="groupe-scientif">
+                    <button onclick="check('4')" id="but">4</button>
+                    <button onclick="check('5')" id="but">5</button>
+                    <button onclick="check('6')" id="but">6</button>
+                    <button onclick="check('/')" style="color: red;">/</button>
+                </div>
+                <div class=" groupe-scientif1">
+                    <button onclick="check('7')" id="but">7</button>
+                    <button onclick="check('8')" id="but">8</button>
+                    <button onclick="check('9')" id="but">9</button>
+                    <button onclick="check('*')" style="color: red;" id="but">*</button>
+                </div>
+                <div class="div-boutton1">
+                    <button onclick="check('1')" id="but">1</button>
+                    <button onclick="check('2')" id="but">2</button>
+                    <button onclick="check('3')" id="but">3</button>
+                    <button onclick="check('+')" style="color: red;" id="but">+</button>
+                </div>
+                <div class="div-boutton2">
+                    <button onclick="DEL()" id="bute">Del</button>
+                    <button onclick="check('0')" id="but">0</button>
+                    <button onclick="check('.')" id="but">.</button>
+                    <button onclick="check('-')" style="color: red;" id="but">-</button>
+                </div>
+                <div class="groupe-scientif2">
+                    <button onclick="Ac()" style="color: red;" id="but">C</button>
+                </div>
+                <button onclick="egale()" style="color: red;" id="but" class="mon">=</button>
+            </div>
+
+            <div class="scienti">
+
+                <div class="groupe-scientifique6">
+                    <button onclick="binaire()" id="binaire">Bin</button>
+                    <button onclick="hexa()" id="hexa">Dec</button>
+                    <button onclick="Decimal()">Hex</button>
+                    <button onclick="racine()" id="racine">√</button>
+                </div>
+                <div class="groupe-scientifique7">
+                    <button onclick="cosinus()">Cos</button>
+                    <button onclick="sinus()">Sin</button>
+                    <button onclick="tang()">Tan</button>
+                    <button onclick="factoriel()">n!</button>
+                    <button onclick="check('**')">^</button>
+                </div>
+                <div class="div-boutton3">
+                    <button onclick="expo()">exp</button>
+                    <button onclick="logarithme()">ln</button>
+                    <button onclick="check('%')">mod</button>
+                </div>
+            </div>
+
+
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+            <div class="boutom">
+                <button
+                    style="width: 200px;font-size: 25px; color: aqua;background-image:linear-gradient(to bottom right , rgb(207, 166, 151) 50%, black 50%) ;"
+                    id="scientificButton">Scientifique</button>
+                <button
+                    style="width: 200px; font-size: 25px;color: aqua;background-image:linear-gradient(to bottom left , rgb(207, 166, 151) 50%, black 50%) ;"
+                    id="normalButton">Normal</button>
+            </div>
+
+            <!--<a href=".././calculatrice/Untitled-1.html"><button>Normal</button></a>-->
+        </div>
+    </div>
+    <script src="./ts-built/calculatrice.js">
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,205 @@
+ body{
+   background-color: rgb(207, 166, 151); 
+}
+
+.container{
+    border: 1px solid;
+    height: 650px;
+    width: 500px;
+    border-color: black;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px 2px black;
+    margin-left: 35%;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+
+.groupe1-container{
+    border: 5px solid;
+    height: 100px;
+    width: 460px;
+    border-color: black;
+    background-color: black;
+    margin-top: 5%;
+    margin-left: 4%;
+    background-color: white;
+    border-radius: 10px;
+}
+#result{
+    position: relative;
+    margin-left:0%;
+    margin-top: -3.5%;
+    color:black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 455px;
+    border-radius: 1px;
+    height: 95px;
+    cursor: all-scroll;
+    resize: none;
+    background-color: azure;
+    justify-content: center;
+}
+
+button{
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 5px 5px white;
+    height: 50px;
+    width: 70px;
+    cursor: pointer;
+}
+button:hover{
+    scale: 1.1;
+}
+.div-boutton1 :last-child{
+    color:tomato
+}
+
+.groupe2-container{
+    border: 5px solid;
+    height:470px;
+    width: 460px;
+    border-color: black;
+    margin-top: 5%;
+    margin-left: 4%;
+    border-radius: 10px;
+}
+.div-boutton3{
+    position: absolute;
+    margin-top: 22%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 110px;
+}
+.div-boutton2{
+    position: absolute;
+    margin-top: 18%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 110px;
+}
+.div-boutton1{
+    position: absolute;
+    margin-top: 14%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 110px;
+}
+.groupe-scientif{
+    position: absolute;
+    margin-top: 10%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 110px;
+}
+.groupe-scientif1{
+    position: absolute;
+    margin-top: 6%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 110px;
+}
+.groupe-scientif2{
+    position: absolute;
+    margin-top: 2%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 24%;
+}
+.groupe-scientifique6{
+    position: absolute;
+    margin-top: 2%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 20px;
+}
+.boutom{
+    position: absolute;
+    margin-top: 26.5%;
+    margin-left: 24px;
+    display: flex;
+    gap: 0.5rem;
+    width: 200px;
+    font-size: 20px;
+}
+.mon{
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 24%;
+}
+.groupe-scientifique7{
+    position: absolute;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 6.15%;
+}
+a button{
+    width: 240px;
+    margin-top: 410px;
+    margin-left: 5%;
+    background-image:linear-gradient(to bottom right , rgb(207, 166, 151) 50%, black 50%) ;
+    color: aqua;
+    box-shadow: 0px 5px 5px black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+
+}
+.clock{
+    position: absolute;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26.5%;
+    margin-left: 280px;
+    box-shadow: 0px 5px 5px white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+@media  (min-width:320px) and (max-width:500px){
+    .container{
+        margin-left: 2px;
+        background-color: brown;
+        height: 600px;
+        margin-top: 20%;
+    }
+    button{
+        font-size: 50px;
+    }
+    button:hover{
+        scale: 2px;
+    }
+    .div-boutton3{
+        margin-top: 62%;
+        margin-left: 10px;
+    }
+    .div-boutton2{
+        margin-top: 34%;
+        margin-left: 10px;
+    }
+    .div-boutton1{
+        margin-left: 10px;
+        margin-top: 5%;
+    }
+    .div-boutton4{
+        margin-left: 10px;
+        margin-top: 110%;
+    }
+    .groupe2-container{
+        height: 420px;
+    }
+}
